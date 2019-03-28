@@ -1,5 +1,5 @@
 from PyQt5.QtGui import QPixmap
-
+#通过调用API获得的当时天气情况，显示对应天气的图标在界面上
 def picture(num):
     
     if num=='00':
